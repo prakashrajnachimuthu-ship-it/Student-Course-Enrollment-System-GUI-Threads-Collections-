@@ -1,0 +1,76 @@
+Project Overview
+
+This project is an advanced version of the Student Course Enrollment System built using Java Swing (GUI), Multithreading, and Collections Framework.
+
+It provides an interactive interface for managing students, courses, and enrollments while ensuring smooth performance using background threads.
+
+ Features
+GUI-based application using Swing
+Add students and courses dynamically
+Enroll students into courses
+Course capacity management
+Responsive UI using multithreading
+Efficient data handling using ArrayList and HashMap
+🛠️ Technologies Used
+Java (JDK 8 or above)
+Swing (GUI Framework)
+VS Code / IntelliJ IDEA
+Java Collections:
+ArrayList
+HashMap
+ Project Structure
+Student-Enrollment-GUI/
+│
+├── Student.java
+├── Course.java
+├── EnrollmentSystemGUI.java
+└── README.md
+ Concepts Used
+Object-Oriented Programming (OOP)
+Java Swing (GUI)
+Multithreading (Thread)
+Collections Framework
+Event Handling (ActionListener)
+ How It Works
+Algorithm / Steps
+Create Student and Course classes
+Store data using HashMap
+Maintain relationships using ArrayList
+Design GUI using:
+JFrame
+JButton
+JTextField
+JTextArea
+Add input fields for student & course details
+Add buttons:
+Add Student
+Add Course
+Enroll Student
+Handle button actions using ActionListener
+Use threads to process enrollment in background
+Update GUI dynamically
+Display success/failure messages
+
+ Result
+
+The system successfully:
+
+Provides a GUI-based enrollment system
+Uses multithreading to keep UI responsive
+Manages data efficiently using collections
+ Conclusion
+
+This project demonstrates how Java Swing, multithreading, and collections can be combined to build a responsive and real-time application. It enhances:
+
+User interaction
+System performance
+Practical understanding of advanced Java concepts
+ Future Enhancements
+Database integration (MySQL)
+Login system (Admin/User)
+Course drop feature
+Improved UI design (JavaFX)
+Real-time notifications
+ How to Run
+javac *.java
+java EnrollmentSystemGUI
